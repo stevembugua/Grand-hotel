@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-hero{
+    background-color: #070a0c;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 3rem 3rem 1rem 3rem;
+    position: sticky;
+    top: 0;
+}
+.navchildone{
+    color: white;
+    padding: 0 0 0 5rem;
+}
+.navchildone span p{
+    font-family: 'Pinyon Script', cursive;
+    font-weight: lighter;
+    font-style: oblique;
+    
+}
+.navchildtwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 0 0 6rem;
+}
+.navchildtwo a{
+    color:#c4bdbd!important ;
+    font-size:1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: poppins;
+}
+.navchildtwo a:hover{
+    color: #fff!important;
+}
+.navchildthree button{
+    padding: .5rem 3rem;
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+}
