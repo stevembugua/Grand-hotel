@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import About from './components/landingPage/About';
 import Dining from './components/landingPage/Dining';
+import Accomodation from './components/landingPage/Accomodation';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route  path="/about" element={<About/>}/>
         <Route path='/dining' element={<Dining />} />
+        <Route path='/accomodation' element={<Accomodation />} />
       </Routes>
       <ToastContainer />
     </div>

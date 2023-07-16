@@ -11,6 +11,9 @@ import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
     const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault();
@@ -56,10 +59,10 @@ const Footer = () => {
       </div>
       <div className='homefifteen'>
         <div className='footer-one'>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/dining">Dining</Link>
-            <a href="#">Accomodations</a>
+            <Link to="/" onClick={scrollToTop}>Home</Link>
+            <Link to="/about" onClick={scrollToTop}>About</Link>
+            <Link to="/dining" onClick={scrollToTop}>Dining</Link>
+            <Link to="/accomodation" onClick={scrollToTop}>Accomodations</Link>
             <a href="#">Facilities & Amenities</a>
             <a href="#">Contact</a>
         </div>

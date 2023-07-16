@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .accomodationone {
+    position: relative;
+    min-height: 100vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/rooms-hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  
+  .accomodationone-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10rem;
+    font-family: poppins;
+    height: 100vh;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(10, 15, 21, 0.7) 0%, 
+      rgba(10, 15, 21, 0.5) 40%, 
+      #070a0c 100% 
+    );
+    z-index: 1;
+  }
+  
+  .accomodationone-inner h3 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .accomodationone-inner h1 {
+    font-size: 5rem;
+    color: white;
+  }
+  .accomodationtwo{
+    position: relative;
+    min-height: 110vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/room-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35rem;
+    padding-top: 7rem;
+  }
+  .accomodationtwo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba(7, 10, 12, 0.4),
+      rgba(7, 10, 12, 0.4)
+    );
+    z-index: 2;
+  }
+  .accomodationtwo-inner{
+    background-color: #070a0c;
+    color: white;
+    height: 50vh;
+    width: 45vw;
+    padding: 2.5rem;
+    z-index: 2;
+  }
+  .accomodationtwo-inner-one h1{
+    color: #e2c48e;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .accomodationtwo-inner-one h3{
+    color: #d7d5d5;
+    margin-bottom: 1rem;
+  }
+  .accomodationtwo-inner-two{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+  }
+  .accomodationtwo-inner-two-span1 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationtwo-inner-two-span2 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationtwo-inner-three button{
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+    margin-top: 1.5rem;
+    width: 10rem;
+  }
+  .accomodationthree{
+    position: relative;
+    min-height: 110vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/room-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35rem;
+    padding-top: 7rem;
+  }
+  .accomodationthree::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba(7, 10, 12, 0.7),
+      rgba(7, 10, 12, 0.7)
+    );
+    z-index: 2;
+  }
+  .accomodationthree-inner{
+    background-color: #070a0c;
+    color: white;
+    height: 50vh;
+    width: 45vw;
+    padding: 2.5rem;
+    z-index: 2;
+  }
+  .accomodationthree-inner-one h1{
+    color: #e2c48e;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .accomodationthree-inner-one h3{
+    color: #d7d5d5;
+    margin-bottom: 1rem;
+  }
+  .accomodationthree-inner-two{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+  }
+  .accomodationthree-inner-two-span1 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationthree-inner-two-span2 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationthree-inner-three button{
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+    margin-top: 1.5rem;
+    width: 10rem;
+  }
+  .accomodationfour{
+    position: relative;
+    min-height: 110vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/room-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35rem;
+    padding-top: 7rem;
+  }
+  .accomodationfour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba(7, 10, 12, 0.6),
+      rgba(7, 10, 12, 0.6)
+    );
+    z-index: 2;
+  }
+  .accomodationfour-inner{
+    background-color: #070a0c;
+    color: white;
+    height: 50vh;
+    width: 45vw;
+    padding: 2.5rem;
+    z-index: 2;
+  }
+  .accomodationfour-inner-one h1{
+    color: #e2c48e;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .accomodationfour-inner-one h3{
+    color: #d7d5d5;
+    margin-bottom: 1rem;
+  }
+  .accomodationfour-inner-two{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+  }
+  .accomodationfour-inner-two-span1 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationfour-inner-two-span2 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationfour-inner-two-span3 {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-bottom: 1.9rem;
+  }
+  .accomodationfour-inner-two-span3 span{
+    display: flex;
+    gap: .6rem;
+  }
+  .accomodationfour-inner-three button{
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+    margin-top: 1.5rem;
+    width: 10rem;
+  }
+  .accomodationfive{
+    position: relative;
+    min-height: 110vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/rooms-hero-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35rem;
+    padding-top: 7rem;
+  }
+  .accomodationfive::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba(7, 10, 12, 0.8),
+      rgba(7, 10, 12, 0.8)
+    );
+    z-index: 2;
+  }
+  .accomodationfive-inner{
+    background-color: #070a0c;
+    color: white;
+    height: 50vh;
+    width: 45vw;
+    padding: 2.5rem;
+    z-index: 2;
+  }
+  .accomodationfive-inner-one h1{
+    color: #e2c48e;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .accomodationfive-inner-one h3{
+    color: #d7d5d5;
+    margin-bottom: 1rem;
+  }
+  .accomodationfive-inner-two{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+  }
+  .accomodationfive-inner-two-span1 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationfive-inner-two-span2 span{
+    display: flex;
+    align-items: center;  
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .accomodationfive-inner-two-span3 {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-bottom: 1.9rem;
+  }
+  .accomodationfive-inner-two-span3 span{
+    display: flex;
+    gap: .6rem;
+  }
+  .accomodationfive-inner-three button{
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+    margin-top: 1.5rem;
+    width: 10rem;
+  }

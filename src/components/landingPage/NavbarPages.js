@@ -14,7 +14,7 @@ const NavbarPages = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/dining">Dining</Link>
-        <a href="#">Accomodations</a>
+        <Link to="/accomodation">Accomodations</Link>
         <a href="#">Facilities & Amenities</a>
         <a href="#">Contact</a>
       </div>
