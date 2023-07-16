@@ -329,13 +329,12 @@
 }
 .homethirteen{
     background-color: #070a0c;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .homethirteen :nth-child(1){
-    /* border: 1px solid red; */
     margin-right: 6rem;
     width: 50%;
 }
