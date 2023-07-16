@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "../landingPage/Navbar.css"
+import "../landingPage/NavbarPages.css"
 
-const Navbar = () => {
+const NavbarPages = () => {
   return (
-    <nav className='nav-hero'>
+    <div>
+       <nav className='nav-hero-two'>
       <div className='navchildone'>
             <span style={{display:"flex",marginBottom:"-1.3rem",padding:"0 0 0 1.5rem"}}><p>The</p><h4 style={{fontSize:"1.5rem"}}>Caesar</h4></span>
             <h1 style={{fontSize:"3rem",fontFamily:"poppins"}}>Grand</h1> 
@@ -21,7 +22,8 @@ const Navbar = () => {
         <button>Make a reservation</button>
       </div>
     </nav>
+    </div>
   )
 }
 
-export default Navbar
+export default NavbarPages

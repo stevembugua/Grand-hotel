@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .aboutone {
+    position: relative;
+    min-height: 100vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/04/carousel13-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  
+  .aboutone-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10rem;
+    font-family: poppins;
+    height: 100vh;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(10, 15, 21, 0.7) 0%, /* Adjust the opacity and stop position as needed */
+      rgba(10, 15, 21, 0.5) 40%, /* Adjust the opacity and stop position as needed */
+      #070a0c 100% 
+    );
+    z-index: 1;
+  }
+  
+  .aboutone-inner h3 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .aboutone-inner h1 {
+    font-size: 5rem;
+    color: white;
+  }
+  .abouttwo{
+    display: flex;
+    background-color: #070a0c;
+    padding: 0 10rem;
+    gap: 5rem;
+    font-family: poppins;
+  }
+  .abouttwo-inner-one img{
+        height: 110vh;
+        width: 40vw;
+  }
+  .abouttwo-inner-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+  }
+  .abouttwo-inner-two h1{
+    color: #e2c48e;
+    font-size: 4rem;
+  }
+  .abouttwo-inner-two p{
+    color: #d7d5d5;
+    font-size: 1.3rem;
+    margin: 2rem 0;
+  }
+  .abouttwo-inner-two button{
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+    margin-top: 3rem;
+    width: 10rem;
+  } 
+  
+  .aboutthree{
+    display: flex;
+    background-color: #070a0c;
+    padding: 5rem 10rem;
+    gap: 5rem;
+    font-family: poppins;
+  }
+  .aboutthree-inner-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+  }
+  .aboutthree-inner-one h1{
+    color: #e2c48e;
+    font-size: 4rem;
+  }
+  .aboutthree-inner-one p{
+    color: #d7d5d5;
+    font-size: 1.3rem;
+    margin: 2rem 0;
+  }
+  .aboutthree-inner-one button{
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing:.1em;
+    cursor:pointer;
+    height: 3rem;
+    background-color: #e2c48e;
+    margin-top: 3rem;
+    width: 15rem;
+  } 
+  .aboutthree-inner-two img{
+        height: 110vh;
+        width: 38vw;
+  }
+  .aboutfour{
+    background-color: #070a0c;
+    font-family: poppins;
+  }
+  .aboutfour h1{
+    text-align: center;
+    color:#fff ;
+    font-size: 4rem;
+  }
+ .aboutfour-inner{
+    display: flex;
+    padding: 7rem 20rem;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 3rem; */
+ }
+ .aboutfour-inner img{
+    height: 6rem;
+ }
+  
