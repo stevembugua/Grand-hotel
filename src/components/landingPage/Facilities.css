@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .facilitiesone {
+    position: relative;
+    min-height: 100vh; 
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/facility-hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  
+  .facilitiesone-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10rem;
+    font-family: poppins;
+    height: 100vh;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(10, 15, 21, 0.7) 0%, 
+      rgba(10, 15, 21, 0.5) 40%, 
+      #070a0c 100% 
+    );
+    z-index: 1;
+  }
+  
+  .facilitiesone-inner h3 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .facilitiesone-inner h1 {
+    font-size: 5rem;
+    color: white;
+  }
+  .facilitiestwo{
+    background-color: #070a0c;
+    text-align:center ;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+  }
+  .facilitiestwo h1{
+    color: white;
+    font-size: 4rem;
+    margin-bottom:.4em;
+  }
+  .facilitiestwo p{
+    color: #d7d5d5;
+    font-size: 1.2rem;
+  }
+  .facilitiesthree{
+    background-color: #070a0c;
+    display: flex;
+    padding: 1.5rem 10rem 3rem 10rem;
+    gap: 3rem;
+    font-family: poppins;
+  }
+  .facilitiesthree img{
+    height: 80vh;
+  }
+  .facilitiesthree-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .facilitiesthree-inner h1{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .facilitiesthree-inner p{
+    color: #d7d5d5;
+    font-size: 1.2rem;
+  }
+  .facilitiesfour{
+    background-color: #070a0c;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+    font-family: poppins;
+  }
+  .facilitiesfour h1{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  .facilitiesfour h2{
+    color: #e2c48e;
+  }
+  .facilitiesfour p{
+    color: #d7d5d5;
+    font-size: 1.2rem;
+  }
+  .facilitiesfive{
+    background-image: url("https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/facilities-list-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 70vh;
+    padding-left: 50rem;
+    padding-right: 10rem;
+  }
+  .facilitiesfive::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba(7, 10, 12, 0.5),
+      rgba(7, 10, 12, 0.5)
+    );
+  }
+.facilitiesfive-inner{
+    background-color: #070a0c;
+    height: 70%;
+    padding: 2rem;
+    font-family: poppins;
+    z-index: 2;
+    position: absolute;
+    width: 35rem;
+}
+.facilitiesfive-inner h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.facilitiesfive-inner-one{
+    display: flex;
+    font-size: 1.3rem;
+    color: #d7d5d5;
+    gap: 2rem;
+    line-height: 2rem;
+}
