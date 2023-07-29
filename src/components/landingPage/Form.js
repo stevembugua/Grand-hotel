@@ -29,7 +29,7 @@ const FormReservation = () => {
                 <option value="">Deluxe Suite</option>
                 <option value="">Deluxe Two Bedroom Suite</option>
             </select>
-            <button type="submit" className='no'>Submit</button>
+            <button type="submit" className='btn'>Submit</button>
         </form>
     </div>
   )

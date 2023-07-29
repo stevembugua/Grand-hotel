@@ -44,6 +44,7 @@
   }
   .form input,select{
     height: 3rem;
+    width: 100%;
     border: none;
     outline: none;
     font-size: 1.1rem;
@@ -52,7 +53,7 @@
     z-index: inherit;
     
   }
-.no{
+.btn{
     cursor: pointer;
     height: 3rem;
     border: none;
@@ -61,4 +62,5 @@
     background-color: #e2c48e;
     font-size: 1.3rem;
     margin-top: 1rem;
+    width: 100%;
 }
