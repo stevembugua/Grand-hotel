@@ -7,6 +7,7 @@ import About from './components/landingPage/About';
 import Dining from './components/landingPage/Dining';
 import Accomodation from './components/landingPage/Accomodation';
 import Facilities from './components/landingPage/Facilities';
+import Contact from './components/landingPage/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/dining' element={<Dining />} />
         <Route path='/accomodation' element={<Accomodation />} />
         <Route path="/facilities&amenities" element={<Facilities />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <ToastContainer />
     </div>

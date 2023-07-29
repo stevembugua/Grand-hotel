@@ -18,8 +18,8 @@ const Accomodation = () => {
             <div className='accomodationtwo-inner'>
                 <div className='accomodationtwo-inner-one'>
                     <h1>Deluxe Room</h1>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo.</h3>
+                    <h3>Welcome to our Deluxe Room, where comfort meets convenience.
+                    Enjoy restful sleep and modern amenities for an enjoyable stay.</h3>
                 </div>
                 <div className='accomodationtwo-inner-two'>
                     <div className='accomodationtwo-inner-two-span1'>
@@ -42,8 +42,9 @@ const Accomodation = () => {
             <div className='accomodationthree-inner'>
                 <div className='accomodationthree-inner-one'>
                     <h1>Deluxe Double Room</h1>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo.</h3>
+                    <h3>Indulge in the comfort of our Deluxe Double Room. Relax in a 
+                        space adorned with modern amenities.
+                        Meet your Stylish Retreat.</h3>
                 </div>
                 <div className='accomodationthree-inner-two'>
                     <div className='accomodationthree-inner-two-span1'>
@@ -66,8 +67,8 @@ const Accomodation = () => {
             <div className='accomodationfour-inner'>
                 <div className='accomodationfour-inner-one'>
                     <h1>Deluxe Suite</h1>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo.</h3>
+                    <h3>Experience pure luxury in our Deluxe Suite. 
+                    Your ultimate escape awaits.</h3>
                 </div>
                 <div className='accomodationfour-inner-two'>
                     <div className='accomodationfour-inner-two-span1'>
@@ -94,8 +95,8 @@ const Accomodation = () => {
             <div className='accomodationfive-inner'>
                 <div className='accomodationfive-inner-one'>
                     <h1>Deluxe Two Bedroom Suite</h1>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo.</h3>
+                    <h3>Indulge in the lap of luxury with our Deluxe Two Bedroom Suite.
+                    Your Ultimate Retreat.</h3>
                 </div>
                 <div className='accomodationfive-inner-two'>
                     <div className='accomodationfive-inner-two-span1'>

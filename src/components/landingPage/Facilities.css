@@ -18,7 +18,7 @@
   .facilitiesone-inner {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     padding-left: 10rem;
     font-family: poppins;

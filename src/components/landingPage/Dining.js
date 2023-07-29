@@ -27,9 +27,11 @@ const Dining = () => {
                 <div className='dinnerthree-inner-one'>
                     <h3>Restaurant</h3>
                     <h1>The Fenix</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    <p>Welcome to The Fenix, where culinary artistry meets impeccable taste. Our restaurant
+        is a celebration of flavors, offering a symphony of gourmet dishes that will delight
+        even the most discerning palate. Each plate is thoughtfully crafted by our
+        world-renowned chefs, combining fresh, locally-sourced ingredients with innovative
+        techniques.
                     </p>
                 </div>
            </div>
@@ -39,9 +41,12 @@ const Dining = () => {
                 <h3>Bar & Pub</h3>
                 <h1>The Retreat</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                 luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Welcome to The Retreat, where unforgettable moments and great times are our specialty. 
+        Nestled in the heart of the city, our bar & pub offers a vibrant and inviting space for
+        you to unwind and socialize.
+        As you step inside, you'll be greeted by the friendly chatter of fellow patrons and the
+        aroma of expertly crafted cocktails. Our talented mixologists take pride in concocting
+        signature drinks that will tantalize your taste buds.
                 </p>
             </div>
         </div>
@@ -50,9 +55,14 @@ const Dining = () => {
                 <div className='dinnerfive-inner-one'>
                     <h3>Cafe</h3>
                     <h1>Mocha</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    <p>Welcome to Mocha, where every sip tells a story and every bite is a moment to cherish. 
+            Step into our cozy cafe, and you'll be greeted by the comforting aroma of freshly brewed
+            coffee and the sweet scent of freshly baked treats.
+            Mocha is a haven for coffee lovers and connoisseurs alike. Our passionate baristas take
+            pride in handcrafting the perfect cup of coffee, sourced from the finest beans around
+            the world. Whether you prefer a classic espresso or a velvety latte, we've got you
+            covered.
+            
                     </p>
                 </div>
            </div>

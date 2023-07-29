@@ -26,9 +26,18 @@ const Home = () => {
       <div className='homefour'>
         <div className='homefour-inner'>
             <h1>An Escape From Reality</h1>
-            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. 
-            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-            Lorem elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+            <p>Welcome to our luxurious hotel, where indulgence meets tranquility. 
+    Immerse yourself in a world of elegance and refined hospitality. 
+    Experience a stay like no other, surrounded by breathtaking views and
+    world-class amenities. 
+    Unwind in our lavishly appointed rooms and suites, each designed to
+    cater to your every need.
+    Discover culinary delights at our award-winning restaurants, serving
+    delectable dishes prepared by master chefs.
+    Whether you seek relaxation or adventure, our dedicated staff will
+    ensure your stay is unforgettable.
+    Book your escape today and let us redefine your notion of hospitality.
+    </p>
         </div>
       </div>
       <div className='homefive'>
@@ -92,7 +101,7 @@ const Home = () => {
                     <img src="https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/04/casino-11-400x400.jpg" alt="" />
                 </div>
                 <div className='hometen-inner-two-div2'>
-                    <h1>Exclusive Caino</h1>
+                    <h1>Exclusive Casino</h1>
                     <h1>Benefits</h1>
                     <p>Get yourself wealth beyond imagination.</p>
                 </div>

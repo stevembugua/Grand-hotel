@@ -16,7 +16,7 @@ const NavbarPages = () => {
         <Link to="/dining">Dining</Link>
         <Link to="/accomodation">Accomodations</Link>
         <Link to="/facilities&amenities">Facilities & Amenities</Link>
-        <a href="#">Contact</a>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className='navchildthree'>
         <button>Make a reservation</button>

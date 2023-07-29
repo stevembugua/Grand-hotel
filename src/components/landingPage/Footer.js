@@ -64,7 +64,7 @@ const Footer = () => {
             <Link to="/dining" onClick={scrollToTop}>Dining</Link>
             <Link to="/accomodation" onClick={scrollToTop}>Accomodations</Link>
             <Link to="/facilities&amenities" onClick={scrollToTop}>Facilities & Amenities</Link>
-            <a href="#">Contact</a>
+            <Link to="/contact" onClick={scrollToTop}>Contact</Link>
         </div>
         <div className='footer-two'>
              <h4>Copyright © {new Date().getFullYear()} Luxury Hotel</h4>
