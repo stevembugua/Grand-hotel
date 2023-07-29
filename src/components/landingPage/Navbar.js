@@ -1,8 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../landingPage/Navbar.css"
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+const navigate = useNavigate()
+  const navigation = () => {
+    navigate('/FormReservation')
+  }
   return (
     <nav className='nav-hero'>
       <div className='navchildone'>
@@ -18,7 +23,7 @@ const Navbar = () => {
         <Link to="/contact">Contact</Link>
       </div>
       <div className='navchildthree'>
-        <button>Make a reservation</button>
+        <button onClick={navigation}>Make a reservation</button>
       </div>
     </nav>
   )

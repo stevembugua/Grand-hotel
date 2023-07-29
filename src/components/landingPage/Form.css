@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-hero{
+    background-image: url('https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/room-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba(7, 10, 12, 0.4),
+      rgba(7, 10, 12, 0.4)
+    );
+    z-index: 2;
+  }
+  .form{
+    display: flex;
+    flex-direction: column; 
+    height: 80%;
+    background-color: #070a0c;
+    opacity: .8;
+    color: white;
+    width: 30%;
+    border-radius: .3rem;
+    z-index: 6;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .form input,select{
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    border-radius: .3rem;
+    z-index: inherit;
+    
+  }
+.no{
+    cursor: pointer;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    background-color: #e2c48e;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}

@@ -8,6 +8,7 @@ import Dining from './components/landingPage/Dining';
 import Accomodation from './components/landingPage/Accomodation';
 import Facilities from './components/landingPage/Facilities';
 import Contact from './components/landingPage/Contact';
+import FormReservation from './components/landingPage/Form';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/accomodation' element={<Accomodation />} />
         <Route path="/facilities&amenities" element={<Facilities />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/FormReservation' element={<FormReservation />} />
       </Routes>
       <ToastContainer />
     </div>

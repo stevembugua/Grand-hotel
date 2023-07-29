@@ -4,8 +4,13 @@ import "../landingPage/Home.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css"
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate()
+  const navigation = () => {
+    navigate('/FormReservation')
+  }
   return (
     <div className='home-hero'>
       <Navbar />
@@ -13,7 +18,7 @@ const Home = () => {
         <h3 style={{color:"white",marginTop:"9rem",marginBottom:"1rem"}}>Dive into Ultimate Luxury at</h3>
         <h1 style={{color:"white",fontSize:"5rem",marginBottom:"1rem"}}>The Caesar Grand</h1>
         <h3 style={{color:"#c4bdbd"}}>The best there ever is.Come explore luxury like never before</h3>
-        <button>MAKE A RESERVATION</button>
+        <button onClick={navigation}>MAKE A RESERVATION</button>
       </div>
       <div className='homethree'>
         <AliceCarousel autoPlay="true" autoPlayInterval="3000" infinite="true">
@@ -126,7 +131,7 @@ const Home = () => {
                 <div className='hometen-inner-three-div3'>
                     <h1>More Benefits</h1>
                     <p>More to be shown on arrival</p>
-                    <button>BECOME A MEMBER</button>
+                    <button onClick={navigation}>BECOME A MEMBER</button>
                 </div>
             </div>
         </div>
@@ -160,7 +165,7 @@ const Home = () => {
               <p>Search no more for we are here to care,deliver and make every moment of your life memorable.</p>
             </div>
             <div>
-                <button>BOOK NOW</button>
+                <button onClick={navigation}>BOOK NOW</button>
             </div>
       </div>
         <Footer />

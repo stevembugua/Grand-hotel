@@ -3,8 +3,15 @@ import NavbarPages from './NavbarPages'
 import "../landingPage/Accomodation.css"
 import { AiOutlineCheckCircle } from "react-icons/ai"
 import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
 
 const Accomodation = () => {
+    const navigate = useNavigate()
+
+    const navigation = () => {
+        navigate('/FormReservation')
+        console.log('clicked')
+    }
   return (
     <div>
        <div className='accomodationone'>
@@ -34,7 +41,7 @@ const Accomodation = () => {
                     </div>
                 </div>
                 <div className='accomodationtwo-inner-three'>
-                    <button type="submit">Book Now</button>
+                   <button onClick={navigation}>Book Now</button>
                 </div>
             </div>
         </div>
@@ -59,7 +66,7 @@ const Accomodation = () => {
                     </div>
                 </div>
                 <div className='accomodationthree-inner-three'>
-                    <button type="submit">Book Now</button>
+                   <button  onClick={navigation}>Book Now</button>
                 </div>
             </div>
         </div>
@@ -87,7 +94,7 @@ const Accomodation = () => {
                     </div>
                 </div>
                 <div className='accomodationfour-inner-three'>
-                    <button type="submit">Book Now</button>
+                   <button  onClick={navigation}>Book Now</button>
                 </div>
             </div>
         </div>
@@ -115,7 +122,7 @@ const Accomodation = () => {
                     </div>
                 </div>
                 <div className='accomodationfive-inner-three'>
-                    <button type="submit">Book Now</button>
+                   <button  onClick={navigation}>Book Now</button>
                 </div>
             </div>
         </div>
