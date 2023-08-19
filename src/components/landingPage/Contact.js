@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavbarPages from './NavbarPages'
 import "../landingPage/Contact.css"
 import { AiFillClockCircle } from "react-icons/ai"
@@ -11,10 +11,11 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from './Footer'
 
 const Contact = () => {
+    const [sending,setSending] = useState(false)
     const form = useRef()
     const contactUs = (e) => {
         e.preventDefault();
-    
+        setSending(true)
         emailjs.sendForm('service_qsycynr', 'template_0tdlmks', form.current, 'YnUisNeJ_Mb2_Nlk0')
           .then((result) => {
               console.log(result.text);
@@ -28,6 +29,7 @@ const Contact = () => {
                 position: 'top-right', autoClose: 3000, hideProgressBar: false,
               })
           });
+        setSending(false)
       };
   return (
     <div>
@@ -61,7 +63,9 @@ const Contact = () => {
                     <input type="text" name='user_name' placeholder="Name" required/>
                     <input type="email" name='user_email' placeholder="Email" required/>
                     <textarea placeholder='Enter your message' name='user_message' cols="20" rows="10"></textarea>
-                    <button type='submit'>SEND NOW</button>
+                    <button type='submit' disabled={sending}>
+                        {sending ? "Sending..." : "SEND NOW" }
+                    </button>
                 </form>
             </div>
         </div>
