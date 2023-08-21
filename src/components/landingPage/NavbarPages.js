@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import "../landingPage/NavbarPages.css"
 import { useNavigate } from 'react-router-dom';
 
@@ -16,12 +16,12 @@ const NavbarPages = () => {
             <h1 style={{fontSize:"3rem",fontFamily:"poppins"}}>Grand</h1> 
       </div>
       <div className='navchildtwo'>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/dining">Dining</Link>
-        <Link to="/accomodation">Accomodations</Link>
-        <Link to="/facilities&amenities">Facilities & Amenities</Link>
-        <Link to="/contact">Contact</Link>
+        <NavLink exact to="/" className={({isActive})=>(isActive ? "active-style" : '')}>Home</NavLink>
+        <NavLink to="/about" className={({isActive})=>(isActive ? "active-style" : '')}>About</NavLink>
+        <NavLink to="/dining"className={({isActive})=>(isActive ? "active-style" : '')}>Dining</NavLink>
+        <NavLink to="/accomodation" className={({isActive})=>(isActive ? "active-style" : '')}>Accomodations</NavLink>
+        <NavLink to="/facilities&amenities" className={({isActive})=>(isActive ? "active-style" : '')}>Facilities & Amenities</NavLink>
+        <NavLink to="/contact" className={({isActive})=>(isActive ? "active-style" : '')}>Contact</NavLink>
       </div>
       <div className='navchildthree'>
         <button onClick={navigation}>Make a reservation</button>

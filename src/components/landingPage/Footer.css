@@ -95,6 +95,9 @@
     cursor: pointer;
     
 }
+.footer-one a.active-style{
+    color: #fff;
+}
 .footer-one a:hover{
     color: #fff;
 }

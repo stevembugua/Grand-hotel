@@ -31,14 +31,17 @@
     padding: 0 0 0 6rem;
 }
 .navchildtwo a{
-    color:#c4bdbd!important ;
+    color:#c4bdbd ;
     font-size:1.3rem;
     font-weight: 400;
     cursor: pointer;
     font-family: poppins;
 }
+.navchildtwo a.active-style{
+    color: #fff;
+}
 .navchildtwo a:hover{
-    color: #fff!important;
+    color: #fff;
 }
 .navchildthree button{
     padding: .5rem 3rem;

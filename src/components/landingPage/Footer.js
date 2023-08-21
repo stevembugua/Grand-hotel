@@ -5,7 +5,7 @@ import { AiOutlineTwitter } from "react-icons/ai"
 import { AiFillYoutube } from "react-icons/ai"
 import { BiLogoInstagram } from "react-icons/bi"
 import { BiLogoTripAdvisor } from "react-icons/bi"
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
@@ -59,12 +59,12 @@ const Footer = () => {
       </div>
       <div className='homefifteen'>
         <div className='footer-one'>
-            <Link to="/" onClick={scrollToTop}>Home</Link>
-            <Link to="/about" onClick={scrollToTop}>About</Link>
-            <Link to="/dining" onClick={scrollToTop}>Dining</Link>
-            <Link to="/accomodation" onClick={scrollToTop}>Accomodations</Link>
-            <Link to="/facilities&amenities" onClick={scrollToTop}>Facilities & Amenities</Link>
-            <Link to="/contact" onClick={scrollToTop}>Contact</Link>
+          <NavLink exact to="/" onClick={scrollToTop} className={({isActive})=>(isActive ? "active-style" : '')}>Home</NavLink>
+          <NavLink to="/about" onClick={scrollToTop} className={({isActive})=>(isActive ? "active-style" : '')}>About</NavLink>
+          <NavLink to="/dining" onClick={scrollToTop} className={({isActive})=>(isActive ? "active-style" : '')}>Dining</NavLink>
+          <NavLink to="/accomodation" onClick={scrollToTop} className={({isActive})=>(isActive ? "active-style" : '')}>Accomodations</NavLink>
+          <NavLink to="/facilities&amenities" onClick={scrollToTop} className={({isActive})=>(isActive ? "active-style" : '')}>Facilities & Amenities</NavLink>
+          <NavLink to="/contact" onClick={scrollToTop} className={({isActive})=>(isActive ? "active-style" : '')}>Contact</NavLink>
         </div>
         <div className='footer-two'>
              <h4>Copyright © {new Date().getFullYear()} Luxury Hotel</h4>

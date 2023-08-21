@@ -2,8 +2,19 @@ import React from 'react'
 import NavbarPages from './NavbarPages'
 import "../landingPage/About.css"
 import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
 
 const About = () => {
+    const navigate = useNavigate()
+
+    const navigation = () => {
+        navigate('/FormReservation')
+        console.log('clicked')
+    }
+    const navigation2 = () =>{
+        navigate('/dining')
+        window.scrollTo({top: 0, behavior: 'smooth'})
+    }
   return (
         <div>
             <div className='aboutone'>
@@ -26,7 +37,7 @@ const About = () => {
                         to providing the highest level of comfort, luxury, 
                         and service to ensure that your stay with us is unforgettable. 
                     </p>
-                    <button>BOOK NOW</button>
+                    <button onClick={navigation}>BOOK NOW</button>
                 </div>
             </div>
             <div className='aboutthree'>
@@ -39,7 +50,7 @@ const About = () => {
                      dishes that are made using fresh and high-quality ingredients. 
                      From local specialties to international cuisine, we have something for everyone.
                     </p>
-                    <button>VIEW RESTAURANT</button>
+                    <button onClick={navigation2}>VIEW RESTAURANT</button>
                 </div>
                 <div className='aboutthree-inner-two'>
                     <img src="https://websitedemos.net/luxury-hotel-04/wp-content/uploads/sites/812/2021/06/delicacies.png" alt="" />
