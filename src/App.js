@@ -9,13 +9,17 @@ import Accomodation from './components/landingPage/Accomodation';
 import Facilities from './components/landingPage/Facilities';
 import Contact from './components/landingPage/Contact';
 import FormReservation from './components/landingPage/Form';
+import { Helmet } from 'react-helmet'
 
 function App() {
   return (
     <div className="App">
+        <Helmet>
+          <title>The Grand Caesar</title>
+        </Helmet>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route  path="/about" element={<About/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path='/dining' element={<Dining />} />
         <Route path='/accomodation' element={<Accomodation />} />
         <Route path="/facilities&amenities" element={<Facilities />} />
